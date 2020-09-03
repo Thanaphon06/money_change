@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>แปลงค่าเงิน</h1>
+    <label for="coin">เลือกสกุลเงิน</label>
+
+<select name="coin" id="coin">
+  <option value="USA">American</option>
+  <option value="JPN">Japanes</option>
+  <option value="CHA">China</option>
+  <option value="EUR">Euro</option>
+  <option value="RUB">Ruble</option>
+
+</select>
+    <input type="text" placeholder="ค่าเงินไทย" id="txt1">
+    <button onclick="coin()">คำนวณ</button>
+    <h2 id="total"></h2>
+</body>
+</html>
